@@ -1,0 +1,1 @@
+if(num1 == num2 && typeof(num1) === typeof(num2)){
