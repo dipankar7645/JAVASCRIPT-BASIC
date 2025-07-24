@@ -153,8 +153,10 @@ const obj = {
     Hosteller : false
 }
 
+console.log(obj)
+
 // const {name, id, course, Branch, Hosteller} = obj
 // console.log(Branch)
 
-const {name, id, course, ...hello} = obj
-console.log(hello)
+// const {name, id, course, ...hello} = obj
+// console.log(hello)
