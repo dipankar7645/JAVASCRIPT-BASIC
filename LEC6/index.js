@@ -56,7 +56,8 @@
 // let arr = [4,5,6,78,9]
 // const newArr = arr.map(function(val){
 //     // console.log(val)
-//     val += 5
+//     // val += 5
+//      val *= 5
 //     return val
 // })
 // console.log(newArr)
@@ -65,5 +66,10 @@
 // const newArr = arr.map((val) => val += 5)
 // console.log(newArr)
 
-
-console.log("hello")
+let arr = [3,4,44,36,84,93]
+const newArr = arr.filter((val) => {
+    if(val < 44){
+        return true
+    }
+})
+console.log(newArr)
