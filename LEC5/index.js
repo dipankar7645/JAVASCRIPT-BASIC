@@ -151,8 +151,16 @@ const obj = {
     course : "MCA",
     Branch : "Computer Application",
     Hosteller : false
-}
+};
 
+const obj2 = {
+    name : "Dipnkar",
+    id : 23432,
+    course : "MCA",
+    Branch : "Computer Application",
+    Hosteller : false
+};
+const newobj = {...obj , ...obj2}
 console.log(obj)
 
 // const {name, id, course, Branch, Hosteller} = obj

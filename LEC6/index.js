@@ -66,10 +66,83 @@
 // const newArr = arr.map((val) => val += 5)
 // console.log(newArr)
 
-let arr = [3,4,44,36,84,93]
-const newArr = arr.filter((val) => {
-    if(val < 44){
-        return true
+// let arr = [3,4,44,36,84,93]
+// const newArr = arr.filter((val) => {
+//     if(val < 44){
+//         return true
+//     }
+// })
+// console.log(newArr)
+
+// let arr = [54,66,76,87,88,94]
+// const newArr = arr.filter((val) => val > 66)
+// console.log(newArr)
+
+
+// let arr = [3,4,5,6]
+// let sum = 0;
+// for(let i=0; i<arr.length; i++){
+//     sum += arr[i]  // sum = sum + arr[i]
+//     // sum = sum + arr[i] --> 0 + 3 = 3
+//     // sum = sum + arr[i] --> 3 + 4 = 7
+//     // sum = sum + arr[i] --> 7 + 5 = 12
+//     // sum = sum + arr[i] --> 12 + 6 = 18
+// }
+// console.log(sum)
+
+
+// let arr = [45,65,73,89,87]
+// const newArr = arr.reduce((acc , cur) => {
+//     acc = acc+cur
+//     return acc
+// }, 1)
+// console.log(newArr)
+
+// let arr = [34,45,64,55]
+// const newArr = arr.reduce((acc , cur) => acc += cur , 0)
+// console.log(newArr)
+
+let student = [
+    {name : "Dipankar" , courese : "MCA" , branch : "CA"},
+    {name : "Rahul" , courese : "B.tech" , branch : "CSE"},
+    {name : "sonu" , courese : "B.tech" , branch : "Civil"},
+    {name : "jai" , courese : "MCA" , branch : "CA"},
+    {name : "prabhakar" , courese : "Bca" , branch : "CA"},
+    {name : "ram" , courese : "B.tech" , branch : "mechanical"},
+];
+
+// const newArr = student.filter((val) => {
+//     console.log(val)
+// })
+
+// const newArr = student.filter((val) => {
+//     return val
+// })
+// console.log(newArr)
+
+// const newArr = student.filter((val) => {
+//     if(val.courese === 'B.tech'){
+//         return val
+//     }
+// })
+// console.log(newArr)
+
+// const newArr = student.filter((val) => val.courese === 'Bca')
+// console.log(newArr)
+
+// const newArr = student.filter((val) => {
+//     let fullname = ''
+//     if(val.branch === 'CA'){
+//         fullname += val.name
+//         console.log(fullname)
+//         return val
+//     }
+// })
+// console.log(newArr)
+
+const newArr = student.filter((val) => {
+    if(val.courese === 'B.tech'){
+        return val
     }
-})
+}).map((val) => val.name)
 console.log(newArr)
