@@ -1,7 +1,5 @@
 // var
 
-const { address } = require("framer-motion/client")
-
 // var name = "Dipankar"
 // {
 //     console.log(name)
@@ -102,19 +100,19 @@ const { address } = require("framer-motion/client")
 // hello()
 // console.log(name)
 
-function hello1(){
-    const name = "Dipankar"
-    console.log("inside function")
+// function hello1(){
+//     const name = "Dipankar"
+//     console.log("inside function")
 
-    function hello2(){
-        const naam = "patna"
-        console.log(name)
-        {
-            console.log(naam)
-        }
-    }
-    // console.log(naam)
-    hello2()
-    // console.log(naam)
-}
-hello1()
+//     function hello2(){
+//         const naam = "patna"
+//         console.log(name)
+//         {
+//             console.log(naam)
+//         }
+//     }
+//     // console.log(naam)
+//     hello2()
+//     // console.log(naam)
+// }
+// hello1()
